@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Page title -->
+  <title>Kiki's Bakery</title>
+  <!-- Link to external stylesheet -->
+  <link href="style.css" rel="stylesheet" />
+  <!-- Link to external JavaScript file -->
+  <script src="index.js"></script>
+  <!-- This fulfils requirement 5.1(e)-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Header section -->
+  <header>
+    <!-- Logo container with a clickable logo linking to the homepage -->
+    <div class="logoContain">
+      <img src="pictures/logo.png" alt="logo" id="logo" onclick="location.href = 'index.html'" />
+    </div>
+    <!-- Navigation links -->
+    <div class="nav">
+      <a href="restaurants.html">Our Restaurants</a>
+      <a href="order.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+
+    </div>
+    <!-- Order button -->
+    <button id="order" onclick="location.href='order.html';">
+      Order
+    </button>
+
+
+  </header>
+  <!-- Main content section -->
+  <main>
+    <div class="main1">
+      <div class="home">
+        <h1>Kiki's Bakery</h1>
+        <h2>A Culinary Journey of Flavors</h2>
+        <p>Indulge in the finest <span>pastries, cakes, and more!</span></p>
+      </div>
+    </div>
+    <!-- Items section with different pastry types -->
+    <div id="items">
+
+      <div class="pastry">
+        <!-- This fulfils requirement 5.1(b)-->
+        <img src="pictures/pastry.jpg" alt="Pastry" class="itemsImg" onclick="location.href = 'order.html'">
+        <h2>Our Delicious Pastries</h2>
+        <p class="para">Explore our mouthwatering selection of pastries
+          <span>from Chocolate to Bubblegum.</span>
+        </p>
+      </div>
+
+      <div class="cupcake">
+        <img src="pictures/cupcake.jpg" alt="Cupcake" class="itemsImg" onclick="location.href = 'order.html'">
+        <h2>Cupcake Delight</h2>
+        <p class="para">A perfect blend of sweetness in a bite-sized treat.
+          <span>Fill your temptations.</span>
+        </p>
+      </div>
+
+      <div class="cookie">
+        <img src="pictures/cookie.jpg" alt="Cookie" class="itemsImg" onclick="location.href = 'order.html'">
+        <h2>Cookie Heaven</h2>
+        <p class="para">Indulge in our delightful assortment of cookies
+          <span>from classic chocolate chip to exotic flavors.</span>
+        </p>
+      </div>
+
+      <div class="muffin">
+        <img src="pictures/muffin.jpg" alt="Muffin" class="itemsImg" onclick="location.href = 'order.html'">
+        <h2>Muffin Bliss</h2>
+        <p class="para">Experience pure bliss with our soft and moist muffins
+          <span>available in various tempting flavors.</span>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- About section with a mission statement -->
+    <div id="about">
+      <h2>The mission</h2>
+      <p>Discover the story behind our passion for baking. Kiki's Bakery isn't just a place to satisfy cravings;
+        it's a community hub where we share in your celebrations, big and small.
+        Our dedication to quality, creativity, and customer satisfaction drives us
+        to continuously explore new flavors and designs, ensuring that every bite is a
+        moment of pure delight. As you step into Bakery Delight, you're not just entering a
+        bakery – you're stepping into a world where every confection is crafted with love and
+        served with a smile. Join us on this journey of sweet indulgence, and let Kiki's Bakery
+        be the source of your sweetest moments.</p>
+    </div>
+    <!-- Restaurants section with information and images -->
+    <div id="restaurants">
+      <div class="restText">
+        <p> Check out our Restaurants throughout Canada.</p>
+        <p>Fulfill your desert cravings.
+          Visit us where it's closest to you.
+        </p>
+        <button onclick="location.href = 'restaurants.html'">Our Restaurants</button>
+      </div>
+      <div class="restImg">
+        <!-- This fulfils requirement 5.1(b)-->
+        <img src="pictures/pictures3.jpg" alt="bakery 1" />
+        <img src="pictures/pictures4.jpg" alt="bakery 2" />
+        <img src="pictures/pictures5.jpg" alt="bakery 3" />
+
+      </div>
+    </div>
+  </main>
+  <!-- Footer section -->
+  <!-- This fulfils requirement 5.1(f)-->
+  <footer>
+    <div>
+      <ul>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><a href="crossReference.html">CrossReference Page</a></li>
+        <li><a href="restaurants.html">Our Restaurants</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><a href="#instagram">Instagram</a></li>
+        <!-- This fulfils requirement 5.1(g)-->
+        <li id="lastUpdated"></li>
+        <!-- This fulfils requirement 5.1(d)-->
+        <li>&copy; 2023 Kiki's Bakery. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

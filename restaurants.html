@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Restaurants</title>
+    <link rel="stylesheet" href="restaurants.css" />
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logoContain">
+            <img src="pictures/logo.png" alt="logo" id="logo" onclick="location.href = 'index.html'" />
+        </div>
+        <div class="nav">
+            <a href="restaurants.html">Our Restaurants</a>
+            <a href="order.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <button id="order" onclick="location.href='order.html';">
+            Order
+        </button>
+
+
+    </header>
+
+    <div>
+        <h1>Our Restaurants</h1>
+        <!-- Introduction text about the restaurants -->
+        <h2>
+            Indulge in the delectable world of our pastries,
+            cupcakes, cookies, and muffins at our renowned
+            restaurant, with three branches conveniently
+            located across Canada, offering a delightful
+            sculinary experience from coast to coast.
+        </h2>
+    </div>
+     <!--fulfills 5.5b -->
+    <div class="ball"></div>
+    <!-- Location container with information about each restaurant branch -->
+    <div class="locationContainer">
+        <div class="loc">
+            <h3>Vancouver</h3>
+            <img src="pictures/loc1.jpeg" alt="Location" />
+
+        </div>
+        <div class="loc">
+            <h3>Calgary</h3>
+            <img src="pictures/loc2.jpeg" alt="Location" />
+
+        </div>
+        <div class="loc">
+            <h3>Victoria</h3>
+            <img src="pictures/loc3.jpeg" alt="Location" />
+
+        </div>
+
+    </div>
+
+    <h3 style="font-size: 30px;">Behind the scenes in our restaurant kitchen where our talented chefs craft culinary
+        masterpieces with passion
+        and precision.</h3>
+
+    <!-- Video element showcasing the restaurant kitchen -->
+     <!--fulfills 5.5a -->
+    <div class="video1">
+        <video src="pictures/video.mp4" height="400px" width="600px" controls></video>
+    </div>
+    <!-- Fixed elements for New Year's message and countdown display -->
+    <div
+        style="position: fixed; top: 20px; right: 20px; font-size: 14px; color:black;background-color: rgba(255, 255, 255, 0.8);">
+        New Year 2024!</div>
+    <div id="countdown"
+        style="position: fixed; top: 50px; right: 20px; font-size: 16px; background-color: rgba(255, 255, 255, 0.8); padding: 2px; border-radius: 5px;">
+    </div>
+
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="crossReference.html">CrossReference Page</a></li>
+                <li><a href="restaurants.html">Our Restaurants</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#instagram">Instagram</a></li>
+
+                <li id="lastUpdated"></li>
+                <li>&copy; 2023 Kiki's Bakery. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

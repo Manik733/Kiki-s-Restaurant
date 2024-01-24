@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* General styling for the entire body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffcef;
+  font-family: 'Courgette', cursive;
+  color: white;
+  display: grid;
+}
+/* Styling for different tags and classes */
+a {
+  text-decoration: none;
+  font-family: 'Courgette', cursive;
+  font-size: 1.2rem;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #eda42d;
+  font-size: 1.4rem;
+  transition-duration: 1s;
+}
+
+footer {
+  justify-items: center;
+  background-color:#695443;;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+  color: #92a4b1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+button {
+  font-family: 'Courgette', cursive;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #eda42d;
+  border-radius: 10px;
+}
+
+
+button:hover {
+  background-color: #232323;
+  color: white;
+  transition: 400ms;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 6px;
+  background-color: #fffcef;
+}
+
+.nav {
+  justify-items: flex-end;
+  color:red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-right: 4rem;
+
+}
+
+.nav a{
+  color: black;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+  color: #eda42d;
+  font-size: 1.4rem;
+  transition-duration: 1s;
+}
+
+.logoContain {
+  margin-left: 4rem;
+}
+#logo {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+#logo:hover{
+  max-width: 250px;
+  transition-duration: 1s;
+}
+
+#order {
+  height: 3rem;
+  width: 6rem;
+  justify-self: center;
+  align-self: center;
+}
+/* fulfills 5.2g */
+main {
+  background-image: url(pictures/blur.png);
+  display: grid;
+  grid-template-rows: 1fr 1fr 10fr;
+  justify-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no repeat;
+  text-shadow: 2px 2px 5px black;
+  
+}
+/* fulfills 5.2g,5.3b and 5.7d*/
+form {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  min-width: 30vw;
+  gap: 10px;
+  padding: 20px;
+  border: 5px solid #cccccc;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  box-shadow: 2px 2px #cccccc;
+  background: rgba(204, 204, 204, 0.5);
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ceccc9;
+}
+
+.contactHeader {
+  text-shadow: bisque 1px 0 6px;
+}
+/* fulfills 5.3c*/
+input:focus {
+  border-color: red;
+  outline: none;
+}
+

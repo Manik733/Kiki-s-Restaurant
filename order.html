@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="order.css" />
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logoContain">
+      <img src="pictures/logo.png" alt="logo" id="logo" onclick="location.href = 'index.html'" />
+    </div>
+    <div class="nav">
+      <a href="restaurants.html">Our Restaurants</a>
+      <a href="order.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+
+    </div>
+
+    <button id="order" onclick="location.href='order.html';">
+      Order
+    </button>
+  </header>
+  <main>
+    <div class="main"></div>
+    <!-- Heading for the order section -->
+    <h1>ORDER</h1>
+<!-- Sections for Cupcakes,muffins,pastries and cookies with images, item names, and prices -->
+<!-- This fulfils requirement 5.1(a)-->
+    <section>
+      <img src="pictures/cupcakes.jpg" alt="cookies" class="itemImg" />
+      <h2>Cookies</h2>
+      <ul>
+        <li>Chocolate Chip Cookies - <span class="price">$5.99</span></li>
+        <li>Oatmeal Raisin Cookies - <span class="price">$6.99</span></li>
+        <li>Peanut Butter Cookies - <span class="price">$8.50</span></li>
+        <li>Snickerdoodles - <span class="price">$9.99</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="pictures/muffins.jpg" alt="muffins" class="itemImg" />
+      <h2>Muffins</h2>
+      <ul>
+        <li>Blueberry Muffins - <span class="price">$3.99</span></li>
+        <li>Chocolate Chip Muffins - <span class="price">$2.99</span></li>
+        <li>Lemon Poppy Seed Muffins - <span class="price">$1.50</span></li>
+        <li>Bran Muffins - <span class="price">$3.99</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="pictures/pastries.jpg" alt="pastries" class="itemImg" />
+      <h2>Pastries</h2>
+      <ul>
+        <li>Croissants - <span class="price">$11.99</span></li>
+        <li>Danish Pastries - <span class="price">$9.99</span></li>
+        <li>Puff Pastry - <span class="price">$8.50</span></li>
+        <li>Cinnamon Rolls - <span class="price">$12.99</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="pictures/cookies.jpg" alt="cupcakes" class="itemImg" />
+      <h2>Cupcakes</h2>
+      <ul>
+        <li>Cupcakes - <span class="price">$4.99</span></li>
+        <li>Vanilla Cupcakes - <span class="price">$4.59</span></li>
+        <li>Strawberry Cupcakes - <span class="price">$3.99</span></li>
+        <li>Coconut Cupcakes - <span class="price">$4.99</span></li>
+      </ul>
+    </section>
+ <!-- Table for Hours of Operation -->
+ <!-- This fulfils requirement 5.4(a)-->
+    <table>
+      <tr>
+        <th colspan="2">Hours Of Operation</th>
+      </tr>
+      <tr>
+        <td>Weekdays</td>
+        <td>8am - 11pm</td>
+      </tr>
+      <tr>
+        <td>Weekends</td>
+        <td>9am - 9pm</td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <div>
+      <ul>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><a href="crossReference.html">CrossReference Page</a></li>
+        <li><a href="restaurants.html">Our Restaurants</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><a href="#instagram">Instagram</a></li>
+
+        <li id="lastUpdated"></li>
+        <li>&copy; 2023 Kiki's Bakery. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+/* General styling for the entire body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffcef;
+  font-family: "Courgette", cursive;
+  color: black;
+  display: grid;
+  background-image: url(pictures/blur.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no repeat;
+}
+/* Styling for different tags and classes */
+a {
+  text-decoration: none;
+  font-family: "Courgette", cursive;
+  font-size: 1.2rem;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fffcef;
+  font-size: 1.4rem;
+  transition-duration: 1s;
+}
+
+footer {
+  justify-items: center;
+  background-color: #695443;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+  color: #92a4b1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  max-width: 100vw;
+}
+
+button {
+  font-family: "Courgette", cursive;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #eda42d;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #232323;
+  color: white;
+  transition: 400ms;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 6px;
+  background-color: #fffcef;
+  max-width: 100vw;
+}
+
+.nav {
+  justify-items: flex-end;
+  color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-right: 4rem;
+  max-width: 100vw;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #eda42d;
+  font-size: 1.4rem;
+  transition-duration: 1s;
+}
+
+.logoContain {
+  margin-left: 4rem;
+}
+#logo {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+#logo:hover {
+  max-width: 250px;
+  transition-duration: 1s;
+}
+
+#order {
+  height: 3rem;
+  width: 6rem;
+  justify-self: center;
+  align-self: center;
+}
+
+#us {
+  margin-top: 50px;
+  display: grid;
+  background-color: #f5b942;
+  width: 80vw;
+  place-self: center;
+  border-radius: 10px;
+  margin: 2rem 0 2rem 0;
+}
+#us > h2 {
+  margin: 50px;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#us > p {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  text-align: center;
+  padding: 0 12rem 0 12rem;
+  margin-bottom: 40px;
+}
+
+.chef {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 50%;
+  border-radius: 30px;
+}
