@@ -1,5 +1,6 @@
 # Kiki's Restaurant Website
 
+https://manik733.github.io/Kiki-s-Restaurant/
 The Kiki's Bakery website project introduces a digital platform for the renowned bakery,
 aiming to meet the evolving demands of the culinary market. By providing an engaging
 online platform, customers can easily explore a diverse menu and get to know the
